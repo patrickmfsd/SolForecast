@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7790D03E2678C10C006EB5AE /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7790D03D2678C10C006EB5AE /* Tests_iOS.swift */; };
+		7790D0482678C10C006EB5AE /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7790D0472678C10C006EB5AE /* Tests_macOS.swift */; };
+		7790D0492678C10C006EB5AE /* SolForecast.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7790D0242678C109006EB5AE /* SolForecast.xcdatamodeld */; };
+		7790D04A2678C10C006EB5AE /* SolForecast.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7790D0242678C109006EB5AE /* SolForecast.xcdatamodeld */; };
+		7790D04B2678C10C006EB5AE /* SolForecastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7790D0262678C109006EB5AE /* SolForecastApp.swift */; };
+		7790D04C2678C10C006EB5AE /* SolForecastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7790D0262678C109006EB5AE /* SolForecastApp.swift */; };
+		7790D04D2678C10C006EB5AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7790D0272678C109006EB5AE /* ContentView.swift */; };
+		7790D04E2678C10C006EB5AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7790D0272678C109006EB5AE /* ContentView.swift */; };
+		7790D04F2678C10C006EB5AE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7790D0282678C109006EB5AE /* Persistence.swift */; };
+		7790D0502678C10C006EB5AE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7790D0282678C109006EB5AE /* Persistence.swift */; };
+		7790D0512678C10C006EB5AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7790D0292678C10C006EB5AE /* Assets.xcassets */; };
+		7790D0522678C10C006EB5AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7790D0292678C10C006EB5AE /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7790D03A2678C10C006EB5AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7790D01F2678C109006EB5AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7790D02D2678C10C006EB5AE;
+			remoteInfo = "SolForecast (iOS)";
+		};
+		7790D0442678C10C006EB5AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7790D01F2678C109006EB5AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7790D0332678C10C006EB5AE;
+			remoteInfo = "SolForecast (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7790D0252678C109006EB5AE /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		7790D0262678C109006EB5AE /* SolForecastApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolForecastApp.swift; sourceTree = "<group>"; };
+		7790D0272678C109006EB5AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7790D0282678C109006EB5AE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		7790D0292678C10C006EB5AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7790D02E2678C10C006EB5AE /* SolForecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolForecast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7790D0342678C10C006EB5AE /* SolForecast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolForecast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7790D0392678C10C006EB5AE /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7790D03D2678C10C006EB5AE /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		7790D0432678C10C006EB5AE /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7790D0472678C10C006EB5AE /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7790D02B2678C10C006EB5AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7790D0312678C10C006EB5AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7790D0362678C10C006EB5AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7790D0402678C10C006EB5AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7790D01E2678C109006EB5AE = {
+			isa = PBXGroup;
+			children = (
+				7790D0232678C109006EB5AE /* Shared */,
+				7790D03C2678C10C006EB5AE /* Tests iOS */,
+				7790D0462678C10C006EB5AE /* Tests macOS */,
+				7790D02F2678C10C006EB5AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7790D0232678C109006EB5AE /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7790D0262678C109006EB5AE /* SolForecastApp.swift */,
+				7790D0272678C109006EB5AE /* ContentView.swift */,
+				7790D0282678C109006EB5AE /* Persistence.swift */,
+				7790D0292678C10C006EB5AE /* Assets.xcassets */,
+				7790D0242678C109006EB5AE /* SolForecast.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7790D02F2678C10C006EB5AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7790D02E2678C10C006EB5AE /* SolForecast.app */,
+				7790D0342678C10C006EB5AE /* SolForecast.app */,
+				7790D0392678C10C006EB5AE /* Tests iOS.xctest */,
+				7790D0432678C10C006EB5AE /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7790D03C2678C10C006EB5AE /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7790D03D2678C10C006EB5AE /* Tests_iOS.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		7790D0462678C10C006EB5AE /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				7790D0472678C10C006EB5AE /* Tests_macOS.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7790D02D2678C10C006EB5AE /* SolForecast (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7790D0552678C10C006EB5AE /* Build configuration list for PBXNativeTarget "SolForecast (iOS)" */;
+			buildPhases = (
+				7790D02A2678C10C006EB5AE /* Sources */,
+				7790D02B2678C10C006EB5AE /* Frameworks */,
+				7790D02C2678C10C006EB5AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SolForecast (iOS)";
+			productName = "SolForecast (iOS)";
+			productReference = 7790D02E2678C10C006EB5AE /* SolForecast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7790D0332678C10C006EB5AE /* SolForecast (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7790D0582678C10C006EB5AE /* Build configuration list for PBXNativeTarget "SolForecast (macOS)" */;
+			buildPhases = (
+				7790D0302678C10C006EB5AE /* Sources */,
+				7790D0312678C10C006EB5AE /* Frameworks */,
+				7790D0322678C10C006EB5AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SolForecast (macOS)";
+			productName = "SolForecast (macOS)";
+			productReference = 7790D0342678C10C006EB5AE /* SolForecast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7790D0382678C10C006EB5AE /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7790D05B2678C10C006EB5AE /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				7790D0352678C10C006EB5AE /* Sources */,
+				7790D0362678C10C006EB5AE /* Frameworks */,
+				7790D0372678C10C006EB5AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7790D03B2678C10C006EB5AE /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 7790D0392678C10C006EB5AE /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7790D0422678C10C006EB5AE /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7790D05E2678C10C006EB5AE /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				7790D03F2678C10C006EB5AE /* Sources */,
+				7790D0402678C10C006EB5AE /* Frameworks */,
+				7790D0412678C10C006EB5AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7790D0452678C10C006EB5AE /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 7790D0432678C10C006EB5AE /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7790D01F2678C109006EB5AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					7790D02D2678C10C006EB5AE = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					7790D0332678C10C006EB5AE = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					7790D0382678C10C006EB5AE = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 7790D02D2678C10C006EB5AE;
+					};
+					7790D0422678C10C006EB5AE = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 7790D0332678C10C006EB5AE;
+					};
+				};
+			};
+			buildConfigurationList = 7790D0222678C109006EB5AE /* Build configuration list for PBXProject "SolForecast" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7790D01E2678C109006EB5AE;
+			productRefGroup = 7790D02F2678C10C006EB5AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7790D02D2678C10C006EB5AE /* SolForecast (iOS) */,
+				7790D0332678C10C006EB5AE /* SolForecast (macOS) */,
+				7790D0382678C10C006EB5AE /* Tests iOS */,
+				7790D0422678C10C006EB5AE /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7790D02C2678C10C006EB5AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7790D0512678C10C006EB5AE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7790D0322678C10C006EB5AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7790D0522678C10C006EB5AE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7790D0372678C10C006EB5AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7790D0412678C10C006EB5AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7790D02A2678C10C006EB5AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7790D0492678C10C006EB5AE /* SolForecast.xcdatamodeld in Sources */,
+				7790D04F2678C10C006EB5AE /* Persistence.swift in Sources */,
+				7790D04B2678C10C006EB5AE /* SolForecastApp.swift in Sources */,
+				7790D04D2678C10C006EB5AE /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7790D0302678C10C006EB5AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7790D04A2678C10C006EB5AE /* SolForecast.xcdatamodeld in Sources */,
+				7790D0502678C10C006EB5AE /* Persistence.swift in Sources */,
+				7790D04C2678C10C006EB5AE /* SolForecastApp.swift in Sources */,
+				7790D04E2678C10C006EB5AE /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7790D0352678C10C006EB5AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7790D03E2678C10C006EB5AE /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7790D03F2678C10C006EB5AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7790D0482678C10C006EB5AE /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7790D03B2678C10C006EB5AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7790D02D2678C10C006EB5AE /* SolForecast (iOS) */;
+			targetProxy = 7790D03A2678C10C006EB5AE /* PBXContainerItemProxy */;
+		};
+		7790D0452678C10C006EB5AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7790D0332678C10C006EB5AE /* SolForecast (macOS) */;
+			targetProxy = 7790D0442678C10C006EB5AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7790D0532678C10C006EB5AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7790D0542678C10C006EB5AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7790D0562678C10C006EB5AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PU8ES8CS9S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrickmfsd.SolForecast;
+				PRODUCT_NAME = SolForecast;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7790D0572678C10C006EB5AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PU8ES8CS9S;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrickmfsd.SolForecast;
+				PRODUCT_NAME = SolForecast;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7790D0592678C10C006EB5AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PU8ES8CS9S;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrickmfsd.SolForecast;
+				PRODUCT_NAME = SolForecast;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7790D05A2678C10C006EB5AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PU8ES8CS9S;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patrickmfsd.SolForecast;
+				PRODUCT_NAME = SolForecast;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7790D05C2678C10C006EB5AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PU8ES8CS9S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patrickmfsd.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SolForecast (iOS)";
+			};
+			name = Debug;
+		};
+		7790D05D2678C10C006EB5AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PU8ES8CS9S;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patrickmfsd.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SolForecast (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7790D05F2678C10C006EB5AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PU8ES8CS9S;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patrickmfsd.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SolForecast (macOS)";
+			};
+			name = Debug;
+		};
+		7790D0602678C10C006EB5AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PU8ES8CS9S;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.patrickmfsd.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "SolForecast (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7790D0222678C109006EB5AE /* Build configuration list for PBXProject "SolForecast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7790D0532678C10C006EB5AE /* Debug */,
+				7790D0542678C10C006EB5AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7790D0552678C10C006EB5AE /* Build configuration list for PBXNativeTarget "SolForecast (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7790D0562678C10C006EB5AE /* Debug */,
+				7790D0572678C10C006EB5AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7790D0582678C10C006EB5AE /* Build configuration list for PBXNativeTarget "SolForecast (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7790D0592678C10C006EB5AE /* Debug */,
+				7790D05A2678C10C006EB5AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7790D05B2678C10C006EB5AE /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7790D05C2678C10C006EB5AE /* Debug */,
+				7790D05D2678C10C006EB5AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7790D05E2678C10C006EB5AE /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7790D05F2678C10C006EB5AE /* Debug */,
+				7790D0602678C10C006EB5AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7790D0242678C109006EB5AE /* SolForecast.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7790D0252678C109006EB5AE /* Shared.xcdatamodel */,
+			);
+			currentVersion = 7790D0252678C109006EB5AE /* Shared.xcdatamodel */;
+			path = SolForecast.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7790D01F2678C109006EB5AE /* Project object */;
+}

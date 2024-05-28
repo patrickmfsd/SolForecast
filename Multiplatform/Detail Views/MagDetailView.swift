@@ -24,7 +24,8 @@ struct MagDetailView: View {
                             .font(.largeTitle)
                     }
                     Text(service.magAlert?.description.capitalized ?? "No Magnetic Event reported")
-                }.listRowBackground(Color.red)
+                }
+                    
                 if "\(String(describing: service.magAlert?.gScale))".isEmpty {
                     Section {
                         RowView(label: "Start Time", value: service.magAlert?.startTime ?? "")

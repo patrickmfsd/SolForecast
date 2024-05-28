@@ -45,6 +45,24 @@
 		77DDB8D62BFCB048007B82E4 /* KIndexDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB8D02BFCB048007B82E4 /* KIndexDetailView.swift */; };
 		77DDB8DB2BFF2EAB007B82E4 /* Descriptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB8DA2BFF2EAB007B82E4 /* Descriptions.swift */; };
 		77DDB8DC2BFF2EAB007B82E4 /* Descriptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB8DA2BFF2EAB007B82E4 /* Descriptions.swift */; };
+		77DDB8E22C003F3B007B82E4 /* AppScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB8DE2C003F3B007B82E4 /* AppScreen.swift */; };
+		77DDB8E32C003F3B007B82E4 /* AppScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB8DE2C003F3B007B82E4 /* AppScreen.swift */; };
+		77DDB8E42C003F3B007B82E4 /* AppSidebarList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB8DF2C003F3B007B82E4 /* AppSidebarList.swift */; };
+		77DDB8E52C003F3B007B82E4 /* AppSidebarList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB8DF2C003F3B007B82E4 /* AppSidebarList.swift */; };
+		77DDB8E62C003F3B007B82E4 /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB8E02C003F3B007B82E4 /* AppTabView.swift */; };
+		77DDB8E72C003F3B007B82E4 /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB8E02C003F3B007B82E4 /* AppTabView.swift */; };
+		77DDB8E82C003F3B007B82E4 /* AppDetailColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB8E12C003F3B007B82E4 /* AppDetailColumn.swift */; };
+		77DDB8E92C003F3B007B82E4 /* AppDetailColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB8E12C003F3B007B82E4 /* AppDetailColumn.swift */; };
+		77DDB8EB2C0040FB007B82E4 /* ForecastNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB8EA2C0040FB007B82E4 /* ForecastNavigationView.swift */; };
+		77DDB8EC2C0040FB007B82E4 /* ForecastNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB8EA2C0040FB007B82E4 /* ForecastNavigationView.swift */; };
+		77DDB8EF2C00421A007B82E4 /* SettingsNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB8EE2C00421A007B82E4 /* SettingsNavigationStack.swift */; };
+		77DDB8F02C00421A007B82E4 /* SettingsNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB8EE2C00421A007B82E4 /* SettingsNavigationStack.swift */; };
+		77DDB8F22C004236007B82E4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB8F12C004236007B82E4 /* SettingsView.swift */; };
+		77DDB8F32C004236007B82E4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB8F12C004236007B82E4 /* SettingsView.swift */; };
+		77DDB8F62C004364007B82E4 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB8F52C004364007B82E4 /* AboutView.swift */; };
+		77DDB8F72C004364007B82E4 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB8F52C004364007B82E4 /* AboutView.swift */; };
+		77DDB8F92C004378007B82E4 /* AboutNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB8F82C004378007B82E4 /* AboutNavigationStack.swift */; };
+		77DDB8FA2C004378007B82E4 /* AboutNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77DDB8F82C004378007B82E4 /* AboutNavigationStack.swift */; };
 		77E9D5FC2BF3090900F971C4 /* AuroaOutlook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E9D5FB2BF3090900F971C4 /* AuroaOutlook.swift */; };
 		77E9D5FD2BF3090900F971C4 /* AuroaOutlook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E9D5FB2BF3090900F971C4 /* AuroaOutlook.swift */; };
 		77E9D5FF2BF30F1100F971C4 /* AuroaWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E9D5FE2BF30F1100F971C4 /* AuroaWatch.swift */; };
@@ -102,6 +120,15 @@
 		77DDB8CF2BFCB048007B82E4 /* DSTIndexDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSTIndexDetailView.swift; sourceTree = "<group>"; };
 		77DDB8D02BFCB048007B82E4 /* KIndexDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KIndexDetailView.swift; sourceTree = "<group>"; };
 		77DDB8DA2BFF2EAB007B82E4 /* Descriptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Descriptions.swift; sourceTree = "<group>"; };
+		77DDB8DE2C003F3B007B82E4 /* AppScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppScreen.swift; sourceTree = "<group>"; };
+		77DDB8DF2C003F3B007B82E4 /* AppSidebarList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSidebarList.swift; sourceTree = "<group>"; };
+		77DDB8E02C003F3B007B82E4 /* AppTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
+		77DDB8E12C003F3B007B82E4 /* AppDetailColumn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDetailColumn.swift; sourceTree = "<group>"; };
+		77DDB8EA2C0040FB007B82E4 /* ForecastNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastNavigationView.swift; sourceTree = "<group>"; };
+		77DDB8EE2C00421A007B82E4 /* SettingsNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsNavigationStack.swift; sourceTree = "<group>"; };
+		77DDB8F12C004236007B82E4 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		77DDB8F52C004364007B82E4 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		77DDB8F82C004378007B82E4 /* AboutNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutNavigationStack.swift; sourceTree = "<group>"; };
 		77E9D5FB2BF3090900F971C4 /* AuroaOutlook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuroaOutlook.swift; sourceTree = "<group>"; };
 		77E9D5FE2BF30F1100F971C4 /* AuroaWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuroaWatch.swift; sourceTree = "<group>"; };
 		77E9D6012BF4440B00F971C4 /* KIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KIndex.swift; sourceTree = "<group>"; };
@@ -146,25 +173,28 @@
 			isa = PBXGroup;
 			children = (
 				7790D0672678DE16006EB5AE /* SolForecast--iOS--Info.plist */,
-				7790D0232678C109006EB5AE /* Shared */,
+				7790D0232678C109006EB5AE /* Multiplatform */,
 				7790D03C2678C10C006EB5AE /* Tests iOS */,
 				7790D0462678C10C006EB5AE /* Tests macOS */,
 				7790D02F2678C10C006EB5AE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7790D0232678C109006EB5AE /* Shared */ = {
+		7790D0232678C109006EB5AE /* Multiplatform */ = {
 			isa = PBXGroup;
 			children = (
 				7790D0262678C109006EB5AE /* SolForecastApp.swift */,
 				7790D0272678C109006EB5AE /* ContentView.swift */,
 				77B1F22A2BF1D39000CD9E65 /* Helper.swift */,
+				77DDB8DD2C003F28007B82E4 /* Navigation */,
 				77B1F2392BF1F8CE00CD9E65 /* Forecast View */,
+				77DDB8F42C004337007B82E4 /* About */,
+				77DDB8ED2C0041EF007B82E4 /* Settings View */,
 				77B1F21F2BF1C7AB00CD9E65 /* Detail Views */,
 				77B1F21B2BF1A3A900CD9E65 /* API */,
 				7790D0292678C10C006EB5AE /* Assets.xcassets */,
 			);
-			path = Shared;
+			path = Multiplatform;
 			sourceTree = "<group>";
 		};
 		7790D02F2678C10C006EB5AE /* Products */ = {
@@ -236,11 +266,41 @@
 		77B1F2392BF1F8CE00CD9E65 /* Forecast View */ = {
 			isa = PBXGroup;
 			children = (
+				77DDB8EA2C0040FB007B82E4 /* ForecastNavigationView.swift */,
 				77B1F2332BF1F80A00CD9E65 /* ForecastView.swift */,
 				7761AD1A2BF7261500CB05FD /* GlanceView.swift */,
 				7761AD1D2BF737D900CB05FD /* AuroraForecastGlance.swift */,
 			);
 			path = "Forecast View";
+			sourceTree = "<group>";
+		};
+		77DDB8DD2C003F28007B82E4 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				77DDB8E12C003F3B007B82E4 /* AppDetailColumn.swift */,
+				77DDB8DE2C003F3B007B82E4 /* AppScreen.swift */,
+				77DDB8DF2C003F3B007B82E4 /* AppSidebarList.swift */,
+				77DDB8E02C003F3B007B82E4 /* AppTabView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		77DDB8ED2C0041EF007B82E4 /* Settings View */ = {
+			isa = PBXGroup;
+			children = (
+				77DDB8EE2C00421A007B82E4 /* SettingsNavigationStack.swift */,
+				77DDB8F12C004236007B82E4 /* SettingsView.swift */,
+			);
+			path = "Settings View";
+			sourceTree = "<group>";
+		};
+		77DDB8F42C004337007B82E4 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				77DDB8F52C004364007B82E4 /* AboutView.swift */,
+				77DDB8F82C004378007B82E4 /* AboutNavigationStack.swift */,
+			);
+			path = About;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -402,8 +462,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				77B1F2182BF1A39900CD9E65 /* AuroraAlert.swift in Sources */,
+				77DDB8F62C004364007B82E4 /* AboutView.swift in Sources */,
 				77E9D6022BF4440B00F971C4 /* KIndex.swift in Sources */,
 				77DDB8DB2BFF2EAB007B82E4 /* Descriptions.swift in Sources */,
+				77DDB8E42C003F3B007B82E4 /* AppSidebarList.swift in Sources */,
+				77DDB8EF2C00421A007B82E4 /* SettingsNavigationStack.swift in Sources */,
+				77DDB8E82C003F3B007B82E4 /* AppDetailColumn.swift in Sources */,
+				77DDB8EB2C0040FB007B82E4 /* ForecastNavigationView.swift in Sources */,
 				7790D04B2678C10C006EB5AE /* SolForecastApp.swift in Sources */,
 				77B1F2272BF1C8FA00CD9E65 /* AuroraDetailView.swift in Sources */,
 				77DDB8D52BFCB048007B82E4 /* KIndexDetailView.swift in Sources */,
@@ -412,10 +477,13 @@
 				77B1F22B2BF1D39000CD9E65 /* Helper.swift in Sources */,
 				77256ECF2BF19DC60061D95D /* ServiceHelper.swift in Sources */,
 				77DDB8D12BFCB048007B82E4 /* AIndexDetailView.swift in Sources */,
+				77DDB8F22C004236007B82E4 /* SettingsView.swift in Sources */,
+				77DDB8E22C003F3B007B82E4 /* AppScreen.swift in Sources */,
 				7761AD1E2BF737D900CB05FD /* AuroraForecastGlance.swift in Sources */,
 				77B1F21D2BF1A3C200CD9E65 /* AIndex.swift in Sources */,
 				77E9D6052BF4443600F971C4 /* DSTIndex.swift in Sources */,
 				77E9D5FF2BF30F1100F971C4 /* AuroaWatch.swift in Sources */,
+				77DDB8F92C004378007B82E4 /* AboutNavigationStack.swift in Sources */,
 				77B1F2312BF1F64C00CD9E65 /* RowView.swift in Sources */,
 				7761AD1B2BF7261500CB05FD /* GlanceView.swift in Sources */,
 				77B1F2152BF1A25900CD9E65 /* MagAlert.swift in Sources */,
@@ -423,6 +491,7 @@
 				77E9D5FC2BF3090900F971C4 /* AuroaOutlook.swift in Sources */,
 				77B1F22E2BF1F63300CD9E65 /* MagDetailView.swift in Sources */,
 				77DDB8D32BFCB048007B82E4 /* DSTIndexDetailView.swift in Sources */,
+				77DDB8E62C003F3B007B82E4 /* AppTabView.swift in Sources */,
 				77B1F2342BF1F80A00CD9E65 /* ForecastView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,8 +501,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				77B1F2192BF1A39900CD9E65 /* AuroraAlert.swift in Sources */,
+				77DDB8F72C004364007B82E4 /* AboutView.swift in Sources */,
 				77E9D6032BF4440B00F971C4 /* KIndex.swift in Sources */,
 				77DDB8DC2BFF2EAB007B82E4 /* Descriptions.swift in Sources */,
+				77DDB8E52C003F3B007B82E4 /* AppSidebarList.swift in Sources */,
+				77DDB8F02C00421A007B82E4 /* SettingsNavigationStack.swift in Sources */,
+				77DDB8E92C003F3B007B82E4 /* AppDetailColumn.swift in Sources */,
+				77DDB8EC2C0040FB007B82E4 /* ForecastNavigationView.swift in Sources */,
 				7790D04C2678C10C006EB5AE /* SolForecastApp.swift in Sources */,
 				77B1F2282BF1C8FA00CD9E65 /* AuroraDetailView.swift in Sources */,
 				77DDB8D62BFCB048007B82E4 /* KIndexDetailView.swift in Sources */,
@@ -442,10 +516,13 @@
 				77B1F22C2BF1D39000CD9E65 /* Helper.swift in Sources */,
 				77256ED02BF19DC60061D95D /* ServiceHelper.swift in Sources */,
 				77DDB8D22BFCB048007B82E4 /* AIndexDetailView.swift in Sources */,
+				77DDB8F32C004236007B82E4 /* SettingsView.swift in Sources */,
+				77DDB8E32C003F3B007B82E4 /* AppScreen.swift in Sources */,
 				7761AD1F2BF737D900CB05FD /* AuroraForecastGlance.swift in Sources */,
 				77B1F21E2BF1A3C200CD9E65 /* AIndex.swift in Sources */,
 				77E9D6062BF4443600F971C4 /* DSTIndex.swift in Sources */,
 				77E9D6002BF30F1100F971C4 /* AuroaWatch.swift in Sources */,
+				77DDB8FA2C004378007B82E4 /* AboutNavigationStack.swift in Sources */,
 				77B1F2322BF1F64C00CD9E65 /* RowView.swift in Sources */,
 				7761AD1C2BF7261500CB05FD /* GlanceView.swift in Sources */,
 				77B1F2162BF1A25900CD9E65 /* MagAlert.swift in Sources */,
@@ -453,6 +530,7 @@
 				77E9D5FD2BF3090900F971C4 /* AuroaOutlook.swift in Sources */,
 				77B1F22F2BF1F63300CD9E65 /* MagDetailView.swift in Sources */,
 				77DDB8D42BFCB048007B82E4 /* DSTIndexDetailView.swift in Sources */,
+				77DDB8E72C003F3B007B82E4 /* AppTabView.swift in Sources */,
 				77B1F2352BF1F80A00CD9E65 /* ForecastView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

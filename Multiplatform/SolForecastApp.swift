@@ -1,6 +1,6 @@
 //
 //  SolForecastApp.swift
-//  Shared
+//  SolForecast
 //
 //  Created by Patrick Mifsud on 15/6/21.
 //

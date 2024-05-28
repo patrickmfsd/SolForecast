@@ -7,33 +7,27 @@
 
 import SwiftUI
 
-struct GlanceView<Destination: View>: View {
-    var title: String = "-"
-    var value: Int = 0
-    var untilDate: String = "-"
-    var destination: () -> Destination
-    
+
+struct GeoMagGlanceView: View {
+    @StateObject var service = SWSRequestService()
+
     @State var glanceTapped: Bool = false
     
     var body: some View {
-        GroupBox {
+        GroupBox(label: Text("Geomagnetic Storms")) {
             HStack {
-                if value == 0 {
+                if service.magAlert?.gScale == 0 {
                     VStack(alignment: .leading, spacing: 5) {
                         Text("No events reported")
                             .font(.title3)
                             .foregroundStyle(.secondary)
-                        Text(title)
-                            .font(.headline)
                     }
                 } else {
                     VStack(alignment: .leading, spacing: 5) {
                         Spacer()
-                        Text("\(value)")
+                        Text("G\(service.magAlert?.gScale ?? 0)")
                             .font(.largeTitle)
-                        Text(title)
-                            .font(.headline)
-                        Text("Until \(dateFromString(untilDate).date.formatted(date: .abbreviated, time: .shortened))")
+                        Text("Until \(dateFromString(service.magAlert?.validUntil ?? "-").date.formatted(date: .abbreviated, time: .shortened))")
                             .font(.caption)
                             .foregroundStyle(.secondary)
                         Spacer()
@@ -44,14 +38,19 @@ struct GlanceView<Destination: View>: View {
             }
             .frame(height: 100)
         }
-        .groupBoxStyle(MaterialGroupBox(spacing: 15, radius: 20, material: .thin))
+        .groupBoxStyle(
+            ColorGroupBox(
+                spacing: 15,
+                radius: 20,
+                level: service.magAlert?.gScale ?? 0
+            ))
         .onTapGesture {
-            if value != 0 {
+            if service.magAlert?.gScale != 0 {
                 glanceTapped = true
             }
         }
         .sheet(isPresented: $glanceTapped) {
-            destination()
+            MagDetailView()
                 .presentationCornerRadius(20)
                 .presentationBackground(.regularMaterial)
                 .presentationDragIndicator(.visible)
@@ -99,9 +98,9 @@ struct GlanceViewRow<Destination: View>: View {
 
 #Preview {
     NavigationView {
-        GlanceView(
+        GlanceViewRow(
             title: "Example Title",
-            value: 123,
+            value: "123",
             untilDate: "2024-05-17T10:00:00Z",
             destination: {
                 Text("Destination View")
